@@ -1,0 +1,50 @@
+=========================
+Java / JEE
+=========================
+*.class
+*.log
+
+Maven
+target/
+
+Gradle (if used)
+.gradle/
+build/
+
+=========================
+Eclipse
+=========================
+.metadata/
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+
+Eclipse project files (optional)
+Uncomment if you DON'T want to share project config
+#.project
+#.classpath
+#.settings/
+
+=========================
+Server (Tomcat etc.)
+=========================
+servers/
+logs/
+temp/
+work/
+
+=========================
+OS files
+=========================
+.DS_Store
+Thumbs.db
+
+=========================
+Deployment artifacts
+=========================
+*.war
+*.ear
